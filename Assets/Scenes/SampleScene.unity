@@ -615,6 +615,10 @@ PrefabInstance:
       value: -61.617
       objectReference: {fileID: 0}
     - target: {fileID: 6327070562841943749, guid: 9e4829055e1c49c47a7be8541ad63f53, type: 3}
+      propertyPath: shotTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6327070562841943749, guid: 9e4829055e1c49c47a7be8541ad63f53, type: 3}
       propertyPath: shotPoint
       value: 
       objectReference: {fileID: 1673676077}
@@ -622,6 +626,10 @@ PrefabInstance:
       propertyPath: projectile
       value: 
       objectReference: {fileID: 6162489817705780362, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
+    - target: {fileID: 6327070562841943749, guid: 9e4829055e1c49c47a7be8541ad63f53, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e4829055e1c49c47a7be8541ad63f53, type: 3}
 --- !u!1 &635661179
@@ -816,7 +824,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673676076}
   m_LocalRotation: {x: -0, y: -0, z: 0.5121732, w: 0.85888225}
-  m_LocalPosition: {x: 1.8955169, y: 2.9741964, z: -0.04372159}
+  m_LocalPosition: {x: 0.11, y: 2.49, z: -0.04372159}
   m_LocalScale: {x: 2.5226645, y: 2.6016262, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
