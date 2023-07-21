@@ -126,7 +126,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: crab-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 279
+        width: 196
+        height: 337
+      alignment: 9
+      pivot: {x: 0.4121919, y: 0.07229342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ab2d5a3e166624b91a15b723d18b48
+      internalID: 218905982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 288
+        width: 174
+        height: 328
+      alignment: 9
+      pivot: {x: 0.49381807, y: 0.080234155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7ba1832346a844fae9f41f2682e4fa
+      internalID: 1768069649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 399
+        width: 228
+        height: 221
+      alignment: 9
+      pivot: {x: 0.8727037, y: 0.13009326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77fbee2a11de09459d8a38cdda42ccb
+      internalID: -1779477609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 362
+        width: 244
+        height: 245
+      alignment: 9
+      pivot: {x: 0.103243716, y: 0.10486338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40e128f468258e4094dd6242784df49
+      internalID: 1999779930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 293
+        width: 162
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12790dca3d312bb43a482f167da6f0e5
+      internalID: -1595014186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 27
+        width: 389
+        height: 266
+      alignment: 9
+      pivot: {x: 0.48893946, y: 0.1845838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dfef73fef408d43b1f3cdc70f615be
+      internalID: -1268237872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 16
+        width: 235
+        height: 243
+      alignment: 9
+      pivot: {x: 0.78378856, y: 0.6637822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8649789e3d4e991409445433cdd918d3
+      internalID: -1615153989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 36
+        width: 221
+        height: 236
+      alignment: 9
+      pivot: {x: 0.21283567, y: 0.5820411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf6f254321543946a93256f434d23f1
+      internalID: -1269097860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -137,7 +305,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crab-sprite-sheet_6: -1595014186
+      crab-sprite-sheet_12: 976418921
+      crab-sprite-sheet_11: 1689165786
+      crab-sprite-sheet_1: 1768069649
+      crab-sprite-sheet_9: 1748582990
+      crab-sprite-sheet_10: -1268237872
+      crab-sprite-sheet_8: -139737789
+      crab-sprite-sheet_13: 2054387114
+      crab-sprite-sheet_2: -1615153989
+      crab-sprite-sheet_7: 1218807096
+      crab-sprite-sheet_3: -1269097860
+      crab-sprite-sheet_0: 218905982
+      crab-sprite-sheet_4: -1779477609
+      crab-sprite-sheet_5: 1999779930
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1
