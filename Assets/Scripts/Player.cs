@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float speed;
 
+    public int health;
+
     private Rigidbody2D rb;
     private Vector2 moveAmount;
     private Animator animator;
@@ -39,6 +41,18 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveAmount * Time.fixedDeltaTime);
+    }
+
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
+        Debug.Log("Player health: " + health);
+
+        if (health <= 0)
+        {
+            // enemy is dead, destory it
+            Destroy(gameObject);
+        }
     }
 
 }

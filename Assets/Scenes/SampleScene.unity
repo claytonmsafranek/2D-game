@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 72903558}
   - component: {fileID: 72903559}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: R-legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122964694}
   - component: {fileID: 122964695}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L-leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 161871147}
   - component: {fileID: 161871148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 350970809}
   - component: {fileID: 350970810}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,7 +535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378331872}
   - component: {fileID: 378331873}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: L-eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 409534046}
   - component: {fileID: 409534047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,9 +841,9 @@ GameObject:
   - component: {fileID: 588263606}
   - component: {fileID: 588263605}
   - component: {fileID: 588263607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -921,6 +921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  health: 10
 --- !u!61 &588263607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -957,6 +958,10 @@ PrefabInstance:
     - target: {fileID: 1806906846813123667, guid: 9e4829055e1c49c47a7be8541ad63f53, type: 3}
       propertyPath: m_Name
       value: rough-weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806906846813123667, guid: 9e4829055e1c49c47a7be8541ad63f53, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1806906846813123692, guid: 9e4829055e1c49c47a7be8541ad63f53, type: 3}
       propertyPath: m_RootOrder
@@ -1030,7 +1035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635661180}
   - component: {fileID: 635661181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R-leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1114,7 +1119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 825109042}
   - component: {fileID: 825109043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: drop-shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1200,7 +1205,8 @@ GameObject:
   - component: {fileID: 1261138203}
   - component: {fileID: 1261138205}
   - component: {fileID: 1261138204}
-  m_Layer: 0
+  - component: {fileID: 1261138206}
+  m_Layer: 7
   m_Name: CrabEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1292,6 +1298,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.597043, y: 3.9428775}
   m_EdgeRadius: 0
+--- !u!114 &1261138206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261138201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef97b6954c1afe4eaa4692d630772c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  speed: 3
+  timeBetweenAttacks: 3
+  damage: 1
+  player: {fileID: 588263603}
+  stopDistance: 2
+  attackSpeed: 8
 --- !u!1 &1285816296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,7 +1385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1372567497}
   - component: {fileID: 1372567498}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1449,7 +1474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1466343353}
   - component: {fileID: 1466343354}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: R-claw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1533,7 +1558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1505082611}
   - component: {fileID: 1505082612}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: R-eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1674,7 +1699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1673676077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShotPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1706,7 +1731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698527302}
   - component: {fileID: 1698527303}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R-arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1790,7 +1815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1738588138}
   - component: {fileID: 1738588139}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: L-legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1864,79 +1889,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1750461948
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780360, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162489817705780362, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_Name
-      value: rough-projectile
-      objectReference: {fileID: 0}
-    - target: {fileID: 8289838429303410853, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_Size.x
-      value: 1.5318259
-      objectReference: {fileID: 0}
-    - target: {fileID: 8289838429303410853, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_Size.y
-      value: 2.2877007
-      objectReference: {fileID: 0}
-    - target: {fileID: 8289838429303410853, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.02516669
-      objectReference: {fileID: 0}
-    - target: {fileID: 8289838429303410853, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.02481985
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 35ae24577b90141409a9b8f821fbde5e, type: 3}
 --- !u!1 &1754119172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,7 +1957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1915514374}
   - component: {fileID: 1915514375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L-arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2090,7 +2042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976134748}
   - component: {fileID: 1976134749}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: L-claw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
