@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int amount)
     {
         health -= amount;
+        Debug.Log("Enemy health: " + health);
 
         if (health <= 0)
         {

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6162489817705780360}
   - component: {fileID: 6162489817705780363}
   - component: {fileID: 8844969847100458624}
+  - component: {fileID: 8289838429303410853}
   m_Layer: 0
   m_Name: rough-projectile
   m_TagString: Untagged
@@ -100,3 +101,30 @@ MonoBehaviour:
   speed: 10
   lifeTime: 1
   explosion: {fileID: 2022264403577518665, guid: 43567000f4fb39941a53b959c972fa77, type: 3}
+  damage: 1
+--- !u!61 &8289838429303410853
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6162489817705780362}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.02516669, y: -0.02481985}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.01, y: 2.66}
+    newSize: {x: 2.01, y: 2.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5318259, y: 2.2877007}
+  m_EdgeRadius: 0
