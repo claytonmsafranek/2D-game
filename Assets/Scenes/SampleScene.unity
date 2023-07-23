@@ -1221,7 +1221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261138201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.097, y: 0.144, z: 0}
+  m_LocalPosition: {x: 6.8, y: 0.144, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   speed: 3
-  timeBetweenAttacks: 3
+  timeBetweenAttacks: 5
   damage: 1
   player: {fileID: 588263603}
   stopDistance: 2
