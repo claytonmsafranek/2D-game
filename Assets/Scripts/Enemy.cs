@@ -9,14 +9,16 @@ public class Enemy : MonoBehaviour
     public float timeBetweenAttacks;
     public int damage;
 
-    [HideInInspector] 
+    // [HideInInspector] 
     public Transform player;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        //Debug.Log("Player Position: " + player.transform.position);
+        // player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        // print(player);
+        // Debug.Log("Player Position: " + player.transform.position);
     }
 
     // Update is called once per frame

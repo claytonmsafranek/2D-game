@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CrabEnemy : Enemy
+public class MeleeEnemy : Enemy
 {
     [SerializeField] float stopDistance;
     [SerializeField] float attackSpeed;
