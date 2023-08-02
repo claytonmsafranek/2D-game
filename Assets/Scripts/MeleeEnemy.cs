@@ -9,10 +9,12 @@ public class MeleeEnemy : Enemy
 
     private float attackTime;
 
+    private Transform player;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
@@ -37,7 +39,7 @@ public class MeleeEnemy : Enemy
         }
         else
         {
-            Debug.LogError("Player is null");
+            Debug.LogError("Inside Melee enemy script - Player is null");
         }
     }
 

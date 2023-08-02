@@ -10,10 +10,10 @@ public class Enemy : MonoBehaviour
     public int damage;
 
     // [HideInInspector] 
-    public Transform player;
+    // public Transform player;
 
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
         // player = GameObject.FindGameObjectWithTag("Player").transform;
 
