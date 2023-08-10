@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 3f0bfddbafe5b1041a11376f964d0479
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 179
+        width: 476
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd669ff6e5335f148bfae7bfdaf5c9bc
+      internalID: 837816924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 360
+        width: 136
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219e7b5cbd1d89247b1790d286332cad
+      internalID: -1398614870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 227
+        width: 428
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfdd0fccc7489541bab75d49ca7c69d
+      internalID: -1762121374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 298
+        width: 132
+        height: 141
+      alignment: 9
+      pivot: {x: 0.85237443, y: 0.22166128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81981231fa09dad458b77733135aa66f
+      internalID: 1195974119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 280
+        width: 150
+        height: 177
+      alignment: 9
+      pivot: {x: 0.10269694, y: 0.24542409}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1859e78975f9c94d8081ae67ac79554
+      internalID: -389321269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 41
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad74ae2f12ab944aa2739473f0ffa94
+      internalID: 381411579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 57
+        width: 85
+        height: 49
+      alignment: 9
+      pivot: {x: 0.59720564, y: 0.45401233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c834fb880caf534d9ee7a9584f22400
+      internalID: 1284092885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 60
+        width: 83
+        height: 44
+      alignment: 9
+      pivot: {x: 0.41855153, y: 0.48292887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93a9113dc5e9934791180a4c3dae442
+      internalID: -633617272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 55
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acf932c232645b4881276f338c059d8
+      internalID: -851919901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 56
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca5d1a5e859e2d49aa420806cf858ce
+      internalID: 569745743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 41
+        width: 98
+        height: 163
+      alignment: 9
+      pivot: {x: 0.89707977, y: 0.2061724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2164d7a2f621a45ac696b2f64c7e7c
+      internalID: 856872485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 30
+        width: 95
+        height: 185
+      alignment: 9
+      pivot: {x: 0.16915412, y: 0.22493368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211138a0371122c46a180fa3a840008c
+      internalID: -2089073779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 73
+        width: 67
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c3078c0a507e48b2be7e1857311fd
+      internalID: -794703870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 71
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c06aea415c6df4b85af3cc4e13995c
+      internalID: -157045250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 94
+        width: 59
+        height: 53
+      alignment: 9
+      pivot: {x: 0.3985306, y: 0.4999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1abb002a78987c488916dff9d90e85c
+      internalID: -1951163815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 96
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.47327533, y: 0.56108886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e9b45c68ac3104dbc850bebf4beacb
+      internalID: -134267195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rough-ranged-enemy-sprite-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 73
+        width: 175
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339812f04c47f07419aab9b490ba3fe5
+      internalID: 878236007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rough-ranged-enemy-sprite-sheet_1: -1398614870
+      rough-ranged-enemy-sprite-sheet_13: -157045250
+      rough-ranged-enemy-sprite-sheet_14: -1951163815
+      rough-ranged-enemy-sprite-sheet_16: 878236007
+      rough-ranged-enemy-sprite-sheet_5: 381411579
+      rough-ranged-enemy-sprite-sheet_12: -794703870
+      rough-ranged-enemy-sprite-sheet_2: -1762121374
+      rough-ranged-enemy-sprite-sheet_6: 1284092885
+      rough-ranged-enemy-sprite-sheet_3: 1195974119
+      rough-ranged-enemy-sprite-sheet_8: -851919901
+      rough-ranged-enemy-sprite-sheet_7: -633617272
+      rough-ranged-enemy-sprite-sheet_9: 569745743
+      rough-ranged-enemy-sprite-sheet_15: -134267195
+      rough-ranged-enemy-sprite-sheet_11: -2089073779
+      rough-ranged-enemy-sprite-sheet_4: -389321269
+      rough-ranged-enemy-sprite-sheet_0: 837816924
+      rough-ranged-enemy-sprite-sheet_10: 856872485
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
