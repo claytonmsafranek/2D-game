@@ -1212,7 +1212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1261138202
 Transform:
   m_ObjectHideFlags: 0
@@ -2256,7 +2256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6857088053456299291, guid: b30aa7c8a4769c94fbaf7b45016d000e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6857088053456299294, guid: b30aa7c8a4769c94fbaf7b45016d000e, type: 3}
       propertyPath: stopDistance
@@ -2283,9 +2283,17 @@ PrefabInstance:
       propertyPath: enemyBullet
       value: 
       objectReference: {fileID: 4546499887255622467, guid: f2a6dad1c4dbd1d4db608cb1465662b2, type: 3}
+    - target: {fileID: 7512447311292874053, guid: 5015c90a259a5bc4c8127eb5fe3545fc, type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7512447311292874072, guid: 5015c90a259a5bc4c8127eb5fe3545fc, type: 3}
       propertyPath: m_Name
       value: PufferEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512447311292874072, guid: 5015c90a259a5bc4c8127eb5fe3545fc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7512447311292874075, guid: 5015c90a259a5bc4c8127eb5fe3545fc, type: 3}
       propertyPath: m_RootOrder
