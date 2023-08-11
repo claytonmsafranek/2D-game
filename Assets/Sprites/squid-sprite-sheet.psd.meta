@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 73f3e13cdc93a0649b756ac13e063950
+guid: 54d8e50eee9a7e74fac2a528ba4ea0e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,169 +128,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crab-sprite-sheet_0
+      name: squid-sprite-sheet_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 279
-        width: 196
-        height: 337
+        x: 29
+        y: 369
+        width: 443
+        height: 550
       alignment: 9
-      pivot: {x: 0.4121919, y: 0.07229342}
+      pivot: {x: 0.48878196, y: 0.1174909}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ab2d5a3e166624b91a15b723d18b48
-      internalID: 218905982
+      spriteID: 11138e746506e8e4c8bccde956a5fd47
+      internalID: 1731914818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crab-sprite-sheet_1
+      name: squid-sprite-sheet_5
       rect:
         serializedVersion: 2
-        x: 264
-        y: 288
-        width: 174
-        height: 328
-      alignment: 9
-      pivot: {x: 0.49381807, y: 0.080234155}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa7ba1832346a844fae9f41f2682e4fa
-      internalID: 1768069649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crab-sprite-sheet_4
-      rect:
-        serializedVersion: 2
-        x: 478
-        y: 399
-        width: 228
-        height: 221
-      alignment: 9
-      pivot: {x: 0.8727037, y: 0.13009326}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d77fbee2a11de09459d8a38cdda42ccb
-      internalID: -1779477609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crab-sprite-sheet_5
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 362
-        width: 244
-        height: 245
-      alignment: 9
-      pivot: {x: 0.103243716, y: 0.10486338}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c40e128f468258e4094dd6242784df49
-      internalID: 1999779930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crab-sprite-sheet_6
-      rect:
-        serializedVersion: 2
-        x: 446
-        y: 293
-        width: 162
-        height: 85
+        x: 529
+        y: 725
+        width: 133
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12790dca3d312bb43a482f167da6f0e5
-      internalID: -1595014186
+      spriteID: e99d88c66a1d70544a3c0f6c51eb48a7
+      internalID: -1247355231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crab-sprite-sheet_10
+      name: squid-sprite-sheet_6
       rect:
         serializedVersion: 2
-        x: 527
-        y: 27
-        width: 389
-        height: 266
+        x: 537
+        y: 369
+        width: 348
+        height: 306
       alignment: 9
-      pivot: {x: 0.48893946, y: 0.1845838}
+      pivot: {x: 0.15726848, y: 0.38090235}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2dfef73fef408d43b1f3cdc70f615be
-      internalID: -1268237872
+      spriteID: 566b3f094ed0c00489d5e1c7e33cb71c
+      internalID: 2035007355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crab-sprite-sheet_2
+      name: squid-sprite-sheet_7
       rect:
         serializedVersion: 2
-        x: 49
-        y: 16
-        width: 235
-        height: 243
+        x: 61
+        y: 14
+        width: 291
+        height: 301
       alignment: 9
-      pivot: {x: 0.78378856, y: 0.6637822}
+      pivot: {x: 0.86432385, y: 0.37892404}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8649789e3d4e991409445433cdd918d3
-      internalID: -1615153989
+      spriteID: e8fa3012d154b974b9d220eecae1f0ec
+      internalID: 1791380232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crab-sprite-sheet_3
+      name: squid-sprite-sheet_8
       rect:
         serializedVersion: 2
-        x: 289
-        y: 36
-        width: 221
-        height: 236
+        x: 369
+        y: 14
+        width: 212
+        height: 319
       alignment: 9
-      pivot: {x: 0.21283567, y: 0.5820411}
+      pivot: {x: 0.7500432, y: 0.91543186}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baf6f254321543946a93256f434d23f1
-      internalID: -1269097860
+      spriteID: 2de596430d334af40849a5304fb1bc44
+      internalID: 547142398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 22
+        width: 291
+        height: 303
+      alignment: 9
+      pivot: {x: 0.1755241, y: 0.91003335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddc1dc91ba82804797c40266cfd4f11
+      internalID: -292595061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 833
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403413a41361fa24184b0bbf13db277b
+      internalID: -579268495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 831
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc0255bb0bd7fb4f9cca691b8d11f5e
+      internalID: -2142869346
       vertices: []
       indices: 
       edges: []
@@ -306,20 +306,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      crab-sprite-sheet_6: -1595014186
-      crab-sprite-sheet_12: 976418921
-      crab-sprite-sheet_11: 1689165786
-      crab-sprite-sheet_1: 1768069649
-      crab-sprite-sheet_9: 1748582990
-      crab-sprite-sheet_10: -1268237872
-      crab-sprite-sheet_8: -139737789
-      crab-sprite-sheet_13: 2054387114
-      crab-sprite-sheet_2: -1615153989
-      crab-sprite-sheet_7: 1218807096
-      crab-sprite-sheet_3: -1269097860
-      crab-sprite-sheet_0: 218905982
-      crab-sprite-sheet_4: -1779477609
-      crab-sprite-sheet_5: 1999779930
+      squid-sprite-sheet_4: -1365640680
+      squid-sprite-sheet_9: -292595061
+      squid-sprite-sheet_1: -579268495
+      squid-sprite-sheet_5: -1247355231
+      squid-sprite-sheet_3: -1850046673
+      squid-sprite-sheet_7: 1791380232
+      squid-sprite-sheet_2: -2142869346
+      squid-sprite-sheet_8: 547142398
+      squid-sprite-sheet_0: 1731914818
+      squid-sprite-sheet_6: 2035007355
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1
