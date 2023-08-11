@@ -12,8 +12,11 @@ public class MeleeEnemy : Enemy
     private Transform player;
 
     // Start is called before the first frame update
-    void Start()
+    public override void Start()
     {
+        // calls start method in base class (to find player)
+        // base.Start();
+
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
