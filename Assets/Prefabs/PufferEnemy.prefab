@@ -716,7 +716,7 @@ MonoBehaviour:
   timeBetweenAttacks: 2
   damage: 2
   stopDistance: 2
-  enemyBullet: {fileID: 5296966145161439320, guid: faef5b4d11b53694db25908b00a5969d, type: 3}
+  enemyBullet: {fileID: 4546499887255622467, guid: f2a6dad1c4dbd1d4db608cb1465662b2, type: 3}
   shotPoint: {fileID: 7512447311626154774}
 --- !u!1 &7512447311522571768
 GameObject:

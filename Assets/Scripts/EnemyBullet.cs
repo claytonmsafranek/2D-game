@@ -40,10 +40,6 @@ public class EnemyBullet : MonoBehaviour
             playerScript.TakeDamage(damage);
             Destroy(gameObject);
         }
-        else
-        {
-            Debug.Log("Collision tag: " + collision.tag);
-        }
     }
 
 
