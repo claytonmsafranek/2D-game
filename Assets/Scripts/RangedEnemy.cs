@@ -45,7 +45,13 @@ public class RangedEnemy : Enemy
         }
         else
         {
-            Debug.LogError("Inside Ranged Enemy script - Player is null");
+            Debug.Log("RangedEnemy.cs: Player is dead/null!");
+            GameObject[] enemiesStillStanding = GameObject.FindGameObjectsWithTag("Enemy");
+            foreach (GameObject enemy in enemiesStillStanding)
+            {
+                Destroy(enemy);
+            }
+            Debug.Log("RangedEnemy.cs: GAME OVER!");
         }
     }
 

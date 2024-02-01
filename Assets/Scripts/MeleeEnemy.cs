@@ -42,7 +42,13 @@ public class MeleeEnemy : Enemy
         }
         else
         {
-            Debug.LogError("Inside Melee enemy script - Player is null");
+            Debug.Log("MeleeEnemy.cs: Player is dead/null!");
+            GameObject[] enemiesStillStanding = GameObject.FindGameObjectsWithTag("Enemy");
+            foreach (GameObject enemy in enemiesStillStanding)
+            {
+                Destroy(enemy);
+            }
+            Debug.Log("MeleeEnemy.cs: GAME OVER!");
         }
     }
 

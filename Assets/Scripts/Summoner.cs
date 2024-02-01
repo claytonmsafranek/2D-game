@@ -74,11 +74,20 @@ public class Summoner : Enemy
                     attackTime = Time.time + timeBetweenAttacks;
                 }
             }
-
+        }
+        else
+        {
+            Debug.Log("Summoner.cs: Player is dead/null!");
+            GameObject[] enemiesStillStanding = GameObject.FindGameObjectsWithTag("Enemy");
+            foreach (GameObject enemy in enemiesStillStanding)
+            {
+                Destroy(enemy);
+            }
+            Debug.Log("Summoner.cs: GAME OVER!");
         }
 
 
-        
+
     }
 
     public void Summon()
