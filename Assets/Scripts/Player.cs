@@ -55,4 +55,16 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void ChangeWeapon(Weapon weaponToEquip)
+    {
+        //destroy game obejct with weapon tag and instantiate the new one right where the previous weapon was
+        //there might be a better way to get child componenets, idk
+        Transform oldWeaponPosition = gameObject.transform.GetChild(0).GetChild(0).GetChild(0).transform;
+        //destroy old weapon
+        Destroy(GameObject.FindGameObjectWithTag("Weapon"));
+        //instantiate new weapon at exact same everything as previous weapon
+        Instantiate(weaponToEquip, oldWeaponPosition.position, oldWeaponPosition.rotation, oldWeaponPosition);
+
+    }
+
 }
