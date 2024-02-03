@@ -9,8 +9,13 @@ public class Enemy : MonoBehaviour
     public float timeBetweenAttacks;
     public int damage;
 
+    // TODO: come back and get this working to take player logic out of all individual enemy scripts
     // [HideInInspector] 
     // public Transform player;
+
+    //num between 0-100. eg 20=20% change that drops something when enemy dies
+    public int pickupChance;
+    public GameObject[] pickups;
 
     // Start is called before the first frame update
     public virtual void Start()
@@ -34,6 +39,14 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
+            int randomNumber = Random.Range(0, 101);
+            if (randomNumber < pickupChance)
+            {
+                //spawn a random pickup at enemy position right before destroy
+                GameObject randomPickup = pickups[Random.Range(0, pickups.Length)];
+                Instantiate(randomPickup, transform.position, transform.rotation);
+            }
+
             // enemy is dead, destory it
             Destroy(gameObject);
         }
