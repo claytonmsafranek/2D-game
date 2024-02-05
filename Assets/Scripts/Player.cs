@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveAmount;
     private Animator animator;
+
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
 
     // Start is called before the first frame update
     void Start()
@@ -45,7 +50,10 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
+        //decrement health and update UI
         health -= amount;
+        UpdateHealthUI(health);
+
         Debug.Log("Player health: " + health);
 
         if (health <= 0)
@@ -65,6 +73,21 @@ public class Player : MonoBehaviour
         //instantiate new weapon at exact same everything as previous weapon
         Instantiate(weaponToEquip, oldWeaponPosition.position, oldWeaponPosition.rotation, oldWeaponPosition);
 
+    }
+
+    private void UpdateHealthUI(int currentHealth)
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < currentHealth)
+            {
+                hearts[i].sprite = fullHeart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+        }
     }
 
 }

@@ -21,7 +21,7 @@ public class EnemyBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector2.Distance(transform.position, targetPosition) > 0.1f)
+        if (Vector2.Distance(transform.position, targetPosition) > 0.01f)
         {
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         }
