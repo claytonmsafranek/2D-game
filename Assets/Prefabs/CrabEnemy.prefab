@@ -541,9 +541,12 @@ MonoBehaviour:
   speed: 3
   timeBetweenAttacks: 3
   damage: 1
-  pickupChance: 100
+  pickupChance: 50
   pickups:
   - {fileID: 6241952808294792486, guid: 14e7bb38ae666044185b591706c932b4, type: 3}
+  - {fileID: 8116716044392993345, guid: c8cb683fa0cdff244ad6567683c83432, type: 3}
+  healthPickupChance: 0
+  healthPickup: {fileID: 0}
   stopDistance: 2
   attackSpeed: 8
 --- !u!1 &17901659657502293

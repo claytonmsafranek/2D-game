@@ -17,6 +17,9 @@ public class Enemy : MonoBehaviour
     public int pickupChance;
     public GameObject[] pickups;
 
+    public int healthPickupChance;
+    public GameObject healthPickup;
+
     // Start is called before the first frame update
     public virtual void Start()
     {
@@ -39,6 +42,7 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
+            // weapon pickup
             int randomNumber = Random.Range(0, 101);
             if (randomNumber < pickupChance)
             {
@@ -46,6 +50,14 @@ public class Enemy : MonoBehaviour
                 GameObject randomPickup = pickups[Random.Range(0, pickups.Length)];
                 Instantiate(randomPickup, transform.position, transform.rotation);
             }
+/*
+            // health pickup
+            int randomHealthNum = Random.Range(0, 101);
+            if (randomHealthNum < healthPickupChance)
+            {
+                //spawn a health pickup at enemy position right before destroy
+                Instantiate(healthPickup, transform.position, transform.rotation);
+            }*/
 
             // enemy is dead, destory it
             Destroy(gameObject);

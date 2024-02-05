@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        // TODO: instantiate however many instances of heart sprites as number of lives defined in inspector
     }
 
     // Update is called once per frame
@@ -88,6 +90,23 @@ public class Player : MonoBehaviour
                 hearts[i].sprite = emptyHeart;
             }
         }
+    }
+
+    public void Heal(int healAmount)
+    {
+        // TODO: make this dynamic and not hardcode 5 in here
+        // make sure our health does not exceed whatever we set it as 
+        if ((health + healAmount) > 5)
+        {
+            health = 5;
+        }
+        else
+        {
+            health += healAmount;
+        }
+
+        // update the UI after healing
+        UpdateHealthUI(health);
     }
 
 }
